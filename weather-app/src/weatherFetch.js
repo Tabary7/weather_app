@@ -11,7 +11,7 @@ function WeatherFetch() {
     
     useEffect(async () => {
 
-    	const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=8f25956cb93d426195ba1a195340cefc`);
+    	const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=api_key`);
 		const data = await response.json();
 		console.log(data);
 
